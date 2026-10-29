@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Branch Metrics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/branch-metrics_stock/
+Branch Metrics provides a mobile measurement and deep linking platform that helps brands attribute marketing campaigns, improve user acquisition, and drive engagement across web, app, and email channels. Leveraging AI-powered tools like Ivy, Branch offers advanced analytics, fraud detection, and customizable link management for enterprises worldwide. The platform serves over 100,000 brands, handling billions of user interactions to deliver actionable insights and optimize ROI.
+
+**Areas:** Mobile · Attribution · Deep Linking · Marketing · Analytics · Artificial Intelligence
+
+## Branch Metrics on APIs.io
+
+Everything profiled for Branch Metrics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/branch-metrics/](https://apis.io/providers/branch-metrics/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Branch Metrics API](https://apis.io/apis/branch-metrics/branch-metrics-api-2/) — Branch Metrics API provides deep linking and attribution endpoints as documented in the API Reference.
+- [Branch Metrics Analytics API](https://apis.io/apis/branch-metrics/branch-metrics-analytics-api/) — The Analytics API from Branch Metrics — 2 operation(s) for analytics.
+- [Branch Metrics App API](https://apis.io/apis/branch-metrics/branch-metrics-app-api/) — The App API from Branch Metrics — 1 operation(s) for app.
+- [Branch Metrics Branch Metrics API](https://apis.io/apis/branch-metrics/branch-metrics-branch-metrics-api-api/) — The Branch Metrics API API from Branch Metrics — 1 operation(s) for branch metrics api.
+- [Branch Metrics Event API](https://apis.io/apis/branch-metrics/branch-metrics-event-api/) — The Event API from Branch Metrics — 1 operation(s) for event.
+- [Branch Metrics Img1 API](https://apis.io/apis/branch-metrics/branch-metrics-img1-api/) — The Img1 API from Branch Metrics — 1 operation(s) for img1.
+- [Branch Metrics Query API](https://apis.io/apis/branch-metrics/branch-metrics-query-api/) — The Query API from Branch Metrics — 1 operation(s) for query.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Branch Metrics Webhooks](https://apis.io/asyncapis/branch-metrics/branch-metrics-webhooks/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetV2AnalyticsResponse](https://apis.io/schemas/branch-metrics/branch-metrics-get-v2-analytics-response/)
+- [PutV1AppBranchkeyRequest](https://apis.io/schemas/branch-metrics/branch-metrics-put-v1-app-branchkey-request/)
+- [PutV1AppBranchkeyResponse](https://apis.io/schemas/branch-metrics/branch-metrics-put-v1-app-branchkey-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Branch Metrics Context](https://apis.io/jsonld/branch-metrics/branch-metrics-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Branch Metrics API Rules](https://apis.io/rules/branch-metrics/branch-metrics-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Branch Metrics Domain Security](https://apis.io/security/branch-metrics/branch-metrics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.branch.io/)
+- [Documentation](https://help.branch.io/)
+- [Getting started](https://help.branch.io/docs/getting-started)
+- [API reference](https://help.branch.io/apidocs)
+- [Pricing](https://www.branch.io/pricing/)
+- [Support](https://support.branch.io/)
+- [Blog](https://www.branch.io/blog/)
+- [Security](https://branch.io/security)
+- [Privacy policy](https://www.branch.io/privacy/)
+- [Status](https://status.branch.io)
+
+## API Evangelist rating
+
+**Kin Score 34.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 30.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/branch-metrics/](https://apis.io/providers/branch-metrics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Branch Metrics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/branch-metrics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
